@@ -1,0 +1,63 @@
+
+/*Font*/
+
+@font-face {
+  font-family: 'YouAreLoved';
+  src: url('YouAreLoved/YouAreLoved.eot?#iefix') format('embedded-opentype'),  url('YouAreLoved/YouAreLoved.woff') format('woff'), url('YouAreLoved/YouAreLoved.ttf')  format('truetype'), url('YouAreLoved/YouAreLoved.svg#YouAreLoved') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SchindlersFont';
+  src: url('SchindlersFont/SchindlersFont.eot?#iefix') format('embedded-opentype'),  url('SchindlersFont/SchindlersFont.woff') format('woff'), url('SchindlersFont/SchindlersFont.ttf')  format('truetype'), url('SchindlersFont/SchindlersFont.svg#SchindlersFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('BebasNeueRegular/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),  url('BebasNeueRegular/BebasNeueRegular.woff') format('woff'), url('BebasNeueRegular/BebasNeueRegular.ttf')  format('truetype'), url('BebasNeueRegular/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AstronBoyRg-Regular';
+  src: url('AstronBoyRg/AstronBoyRg-Regular.eot?#iefix') format('embedded-opentype'),  url('AstronBoyRg/AstronBoyRg-Regular.woff') format('woff'), url('AstronBoyRg/AstronBoyRg-Regular.ttf')  format('truetype'), url('AstronBoyRg/AstronBoyRg-Regular.svg#AstronBoyRg-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Perpetua';
+  src: url('Perpetua/Perpetua.eot?#iefix') format('embedded-opentype'),  url('Perpetua/Perpetua.woff') format('woff'), url('Perpetua/Perpetua.ttf')  format('truetype'), url('Perpetua/Perpetua.svg#Perpetua') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),  url('OpenSans/OpenSans-Regular.woff') format('woff'), url('OpenSans/OpenSans-Regular.ttf')  format('truetype'), url('OpenSans/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.font-loved{font-family: YouAreLoved;}
+
+.font-schindlers{font-family: SchindlersFont;}
+
+.font-bebasNeue{font-family: BebasNeueRegular;}
+
+.font-astronBoyRg {font-family: AstronBoyRg-Regular;}
+
+.font-perpetua {font-family: Perpetua;}
+
+.font-openSans-Regular {font-family: OpenSans-Regular;}
+
+.font-default-font {font-family:TimesNewRoman;}
+			  
+
+/*End font*/

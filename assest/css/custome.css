@@ -1,0 +1,302 @@
+/*Main Page*/
+
+.bg-orange{
+    background: #FF932D !important;
+}
+
+.bg-skyblue{
+    background: #3995FD !important;
+}
+
+.bg-light-info{
+    background: #EDF3F4 !important;
+}
+
+.bg-off-white{
+    background: #F8FAFC !important;
+}
+
+.bg-off-blue{
+    background: #438EB9 !important;
+}
+
+.bg-off-blue2{
+    background: #4a7db4  !important;
+}
+
+.bg-fade-blue{
+    background: #62A8D1 !important;
+}
+
+.bg-off-ass{
+    background: #A0A0A0 !important;
+}
+
+.bg-off-lime{
+    background: #82AF6F !important;
+}
+
+.bg-off-green{
+    background: #4C6F54 !important;
+}
+
+.bg-off-red{
+    background: #D15B47 !important;
+}
+
+.bg-off-purple{
+    background: #9585BF !important;
+}
+
+.bg-off-yellow{
+    background: #deaf2b  !important;
+}
+
+.bg-fade-yellow{
+    background: #FEE188 !important;
+}
+
+.bg-off-magenta{
+    background:#D6487E !important;
+}
+
+.bg-two-color-primary{
+	background: linear-gradient(45deg, #F8F8F8 50%, #69cbc0 50%) !important;
+}
+
+.bg-two-color-secondary {
+	position: relative;
+	z-index: 9;
+	background: rgb(0, 0, 0);
+	overflow: hidden;
+	/* background: linear-gradient(to top, #CCCCCC1A, #FFF, #FFF, #FFF); */
+}
+
+.bg-two-color-secondary:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 25%;
+	right: 0%;
+	bottom: 0;
+	left: 0;
+	/*background: #CCCCCC1A;*/
+	background: linear-gradient(to bottom, #FFF, #FFF, #FFF);
+}
+
+.form-shadow{
+	box-shadow: 2px 3px 20px 2px #CCC;
+}
+
+.shadow-hover-top {
+	transition: 0.2s cubic-bezier(.95,.05,.8,.04);
+}
+
+.shadow-hover-top:hover {
+	box-shadow: 2px 3px 10px -3px #0000004d;
+	border-radius: 0px;
+}
+
+.text-orange{
+    color: #FF932D;
+}
+
+.text-yellow{
+	color: #FAAA3C;
+}
+
+.text-skyblue{
+    color: #3995FD;
+}
+
+.text-light-info{
+    color: #EDF3F4;
+}
+
+.text-off-white{
+    color: #F8FAFC;
+}
+
+.text-off-black{
+    color: rgba(83, 83, 83, 0.959);
+}
+
+
+.text-as-usual {
+	color: #393939b3;
+	letter-spacing: 0.5px;
+}
+
+.font-size-p{
+	font-size:21px;
+}
+
+.font-size-a{	
+	font-size:21px;
+}
+
+.anchor-d-none:hover{
+	text-decoration: none;
+}
+
+.anchor-d-yes{
+	text-decoration: underline;
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 3px #CCC;
+}
+
+.border-box-shadow{
+	border: 1px solid #f8f8f8;
+	box-shadow: 1px 1px 3px #CCC;
+}
+
+.border-custome{
+	border: 1px solid #f8f8f8;
+}
+
+.border-custome-deep{
+	border: 1px solid #e7e5e5;
+}
+
+.border-round-90{
+	border-radius: 90px;
+}
+
+.border-round-15{
+	border-radius: 15px;
+}
+
+.border-round-10{
+	border-radius: 10px;
+}
+
+.border-round-5{
+	border-radius: 5px;
+}
+
+.dashboard-con{}
+
+.dashboard-con a.btn{
+	width: 120px;
+	font-size: 20px;
+	font-weight: initial;
+}
+
+.notice{
+	background: #f9edbe;
+	border-radius: 2px;
+	border: 1px solid #f0c36d;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	color: #666;
+}
+
+.notice p::first-letter { 
+	text-decoration:underline;
+}
+
+.home-login{
+    background-size: cover;
+	height: 610px;
+	background-color: #343A40;
+    background: url('../images/bg.png');
+	z-index: 1;
+}
+
+.home-login div.bg-light {
+	border-radius: 10px;
+}
+
+
+.home-login-con{
+	z-index: 99;
+
+}
+
+.home-login-con img{
+
+}
+
+.home-login-con input.form-control {
+	border-radius: 0;
+	height: 50px;
+}
+
+.home-product-effect{
+	height: auto;
+	position: relative;
+	overflow: visible;
+}
+
+.home-product-effect-con {
+	background: #343A40;
+	height: 10%;
+	width: 10%;
+	top: 35%;
+	bottom: ;
+	left: 45%;
+	position: absolute;
+	overflow: hidden;
+	opacity: 0;
+	transition: 0.2s ease-in-out;
+}
+
+.home-product-effect:hover .home-product-effect-con{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	top: 0%;
+	bottom: ;
+	left: 0%;
+	opacity: 1;
+	border-radius: 0px;
+}
+
+.custome-pagination{}
+
+.custome-pagination ul{}
+
+.custome-pagination ul li{}
+
+.custome-pagination ul li:hover{}
+
+.custome-pagination ul li a{
+	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #007bff;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+}
+
+.profile-position{}
+
+
+.profile-position-square{
+	
+}
+
+.profile-position-star{
+	color:#F9B32F;
+}
+
+
+/*For pre load effect*/
+div#load_screen{
+	background: #E2E2E2;
+	opacity: 1;
+	position: fixed;
+    z-index:10;
+	top: 0px;
+	width: 100%;
+	height: 1600px;
+}
+div#load_screen > div#loading{
+	color:#FFF;
+	width:120px;
+	height:24px;
+	margin: 300px auto;
+}
